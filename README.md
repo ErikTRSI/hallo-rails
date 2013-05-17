@@ -1,4 +1,4 @@
-# Hallo::Rails
+# Hallo-Rails
 
 Hallo-rails is the excellent Hallo.js in-place editor packaged as a gem for the Rails 3.1+ asset pipeline.
 
