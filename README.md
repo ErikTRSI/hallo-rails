@@ -16,16 +16,29 @@ Or install it yourself as:
 
     $ gem install hallo-rails
 
-Note, there is a dependency on Rangy which is included and also dependencies on JQuery, JQuery UI and Font-Awesome which are not included.
+Note, there is a dependency on [`Rangy`](http://code.google.com/p/rangy/) which is included and also dependencies on JQuery, JQuery UI and [`Font Awesome`](http://fortawesome.github.io/Font-Awesome/) which are not included.
 
-Therefore assuming you have already added JQuery, JQuery UI and Font-Awesome simply add the following to your application.js
+Therefore assuming you have already added JQuery, JQuery UI and Font Awesome simply add the following to your application.js
 
     //= require rangy-core
     //= require hallo
 
 ## Usage
 
-For usage instructions please refer to the Hallo.js documentation.
+For full usage instructions please refer to the [`Hallo.js Documentation`](http://hallojs.org) but this should get you going
+
+    $ ()->
+      $('.editable').each ->
+        $(this).hallo
+          plugins:
+            halloformat: {}
+            halloblock: {}
+            hallojustify: {}
+            hallolists: {}
+            halloreundo: {}
+            hallohtml: {}
+            hallolink: {}
+          editable: true
 
 ## Contributing
 
