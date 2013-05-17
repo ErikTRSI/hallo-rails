@@ -27,6 +27,10 @@ Therefore assuming you have already added JQuery, JQuery UI and Font Awesome sim
 
 For full usage instructions please refer to the [`Hallo.js Documentation`](http://hallojs.org) but this should get you going
 
+    <div class="editable" contenteditable="true">Edit me!</div>
+
+Along with something like this
+
     $ ()->
       $('.editable').each ->
         $(this).hallo
